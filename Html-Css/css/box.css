@@ -1,0 +1,30 @@
+.container {
+            margin-top: 50px;
+            background-color: white;
+           /* border: .1px solid gray; */
+           border-radius: 10px;
+            height: 600px;
+            width: 600px;
+        }
+
+        .headi {
+            padding-top: 8px;
+            float: right;
+            margin-left: 100px;
+
+        }
+        .navbar-brand{
+            padding: 20px 0px 0px 20px;
+        }
+        p{
+            padding: 30px 0px 50px 20px;
+        }
+        .footer{
+            padding: 20px 0  0 20px;
+        }
+        .comment1{
+            float: right;
+            padding: 5px 20px 0 0;
+        }
+     
+    

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>hello</h1> -->
+    
+</body>
+<script>
+    var mainDiv = document.createElement("div");
+    var hh = document.createElement("h1");
+    var hh1 = document.createTextNode("welcome");
+    hh.appendChild(hh1);
+    mainDiv.appendChild(hh);
+
+    var paragraph = document.createElement("p");
+    var pText = document.createTextNode("Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.");
+    paragraph.appendChild(pText);
+    mainDiv.appendChild(paragraph);
+
+    var divInsideDiv = document.createElement("div");
+    var img = document.createElement("img");
+    img.src= "https://images.unsplash.com/photo-1628359355624-855775b5c9c4?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyN3x8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+    divInsideDiv.appendChild(img);
+    var cap = document.createElement("caption");
+    
+    var capText = document.createTextNode("lorem_ipsum");
+    cap.appendChild(capText);
+    divInsideDiv.appendChild(cap);
+
+    mainDiv.appendChild(divInsideDiv); 
+
+    document.body.appendChild(mainDiv);
+
+</script>
+</html>
