@@ -15,7 +15,7 @@ class Product extends Component {
     }
     render(){
         return(
-            <div>
+            <>
                 {
                     this.state.products.map(product => 
                         <div key={product.id}>
@@ -25,7 +25,7 @@ class Product extends Component {
                     )
 
                 }
-            </div>
+            </>
             
         )
     }

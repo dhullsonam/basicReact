@@ -1,0 +1,29 @@
+ 
+ 
+{
+    "products": [
+        {
+            "id": 123,
+            "name": "Tulsi",
+            "price": "200 per kg"
+        },
+
+        {
+            "id": 234,
+            "name": "iphone",
+            "price": "1 "
+        },
+
+        {
+            "id": 321,
+            "name": "Apple",
+            "price": "250 rs per kG"
+        },
+        
+        {
+            "id": 212,
+            "name": "Guava",
+            "price": "40 rs per kg"
+        }
+    ]
+}

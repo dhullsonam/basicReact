@@ -1,11 +1,16 @@
 //  
-import Product from './components/products/Product';
-// import './App.css';
+import ComponentLifeCycle from './components/ComponentLifeCycle';
+import SimpleCalc from './components/SimpleCalc';
+import StylingDemo from './components/StylingDemo';
+
+
+import Productlist from './components/ProductList';
 function App() {
   return (
 
     <div className="App">
-      <Product/>
+    <Productlist/>
+
     </div>
   );
 }

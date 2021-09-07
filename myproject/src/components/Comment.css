@@ -1,0 +1,28 @@
+.wrapper{
+   text-align: center;
+   display: block;
+}
+.container{
+   border-radius: 3px;
+   border: .01px solid grey;
+   display: inline-block;
+   padding: 0 10px;
+   background-color: rgb(241, 240, 240);
+}
+.comment{
+   float: left;
+   position: fixed;
+}
+
+.content{
+   position: fixed;
+   padding-left:90px;
+   
+}
+.metadata{
+   padding: 1px 0 0 200px; 
+   float: right; 
+}
+.text{
+    padding: 60px 0 0 90px; 
+}
