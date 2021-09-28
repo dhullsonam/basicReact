@@ -4,10 +4,11 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import MyComponent from './mycomponent';
+import Product from './components/Productlist'
 
 
 ReactDOM.render(
-  <App/>,
+  <Product/>,
   document.getElementById('root')
 );
 

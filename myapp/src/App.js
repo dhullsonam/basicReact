@@ -2,11 +2,12 @@
 import myImg from './images/mendes.jpg'
 // import './App.css';
 import Product from './components/products/Product';
+import MyComponent from './components/MyComponent';
 
 function App() {
   return (
     <div className="App">
-    <Product/>
+    <MyComponent/>
     </div>
   );
 }

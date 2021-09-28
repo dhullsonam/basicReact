@@ -1,0 +1,91 @@
+.main-div {
+    background-color: rgb(221, 247, 247);
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    height: 60vh;
+    width: 25%px;
+    background-color: rgb(182, 216, 248);
+    margin-top: 100px;
+    border-radius: 9px;
+    box-shadow: 5px 5px 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+.container h2 {
+    background: transparent;
+    background-color: rgb(221, 247, 247)    ;
+    border-radius: 5px;
+    padding: 6px 2px;
+    margin-bottom: 10px;
+    
+}
+
+.input-type {
+    padding: 10px;
+    border-style: none;
+    border-bottom: 2px solid rgb(138, 143, 143);
+    background-color: rgb(182, 216, 248);
+    outline: none;
+    font-size: 16px;
+    
+}
+
+.btn {
+    min-height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #8566aa;
+    color: #fff;
+    font-size: 40px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+.btn:hover {
+    background-color: #20bf6b;
+}
+
+ol {
+    margin-top:30px;
+}
+ol li {
+    padding-left: 0px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    color: rgb(15, 17, 17);
+    text-transform: capitalize;
+    list-style: none;
+}
+.todo-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.todo-style .fa-times{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    border-radius: 50%;
+    margin:  0 15px 0 35px;
+    color: black;
+    box-shadow: 5px 5px 15px -5px rgba(0,0,0,0.3);
+}
+.todo-style .fa-times:hover{
+    background-color:  crimson;
+}
+.todo-style .fa-times .list-style {
+    color: crimson;
+}
